@@ -1,0 +1,309 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
+header{
+    width: 100%;
+    height: 100vh;
+     background: url('././img/dodge.jpg');
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+     background-attachment: fixed;
+    
+
+    
+}
+
+.logo
+{
+     padding-left: 100px;
+    display: flex;
+    letter-spacing: 6px;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    
+        
+}
+
+.logo span{
+    color: red;
+}
+
+.menu
+{
+    margin-right: 100px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+
+}
+
+a:hover{
+    background-color: black;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.main
+{
+    font-weight: bolder;   
+    margin: 20px;
+     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text 
+{
+ margin-top: 100px;
+ color: white;
+ margin-left: 100px;
+ max-width: 450px;
+
+}
+
+.text h1{
+letter-spacing: 4px;
+font-size: 30px;
+}
+
+.text p{
+    font-size: 25px;
+}
+button{
+    background-color: rgb(4, 178, 226);
+    border: none;
+    outline: none ;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+.about
+{
+    padding: 100px 50px;
+    
+    
+}
+.about-info
+{
+font-weight: bold;
+text-align: center;
+}
+.about-info h1
+{
+    font-size: 50px;
+}
+.about-info p
+{
+    font-size: 25px;
+    color: rgb(4, 178, 226);
+}
+
+
+.about-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+  .about-left-col 
+{
+ flex-basis: 50%;
+} 
+
+.about-left-col img
+{
+    width: 80%;
+    padding: 50px;
+    
+    
+    
+
+    
+}
+
+.about-right-col 
+{
+ flex-basis: 50%;
+} 
+
+#p-title{
+font-size: 20px;
+font-weight: bold;
+}
+
+.about-right-col p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.skills{
+    padding :100px 50px;
+
+}
+.skill-div
+{
+    color: white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(45,52,54);
+    padding: 50px;
+}
+.skill-left-row
+{
+    
+    font-size: 20px;
+    text-align: justify;
+    flex-basis: 50%;
+}
+
+.skill-right-row
+{
+    flex-basis: 50%;
+    
+}
+
+progress
+{
+  width: 80%; 
+  
+  
+  
+}
+
+
+.progress-div
+{
+  width: 70%;
+  margin: auto;
+}
+.progress-div p{
+    margin-bottom:10px ;   
+    padding-left: 80px;
+   
+    font-size: 20px;
+    text-align: justify;
+}
+
+#services
+{
+    padding: 100px 50px;
+}
+
+.services-row
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.services-box
+{
+    flex-basis: 25%;
+    box-shadow: 2px 3px 5px gray ;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.services-box:hover{
+    background-color: rgb(8, 164, 207);
+    color: white;
+    transition: 0.3s;
+
+}
+
+.services-box img{
+    width: 40% ;
+}
+
+.services-box p{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.services-box h2{
+    text-align: center;
+}
+
+#contact
+{
+    padding: 100px 50px ;
+    background: linear-gradient(160deg, rgb(8, 164, 207) 45%, white 0%);
+}
+.contact-row
+{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.contact-left-col
+{
+    flex-basis: 50%;
+}
+
+.contact-right-col
+{
+    flex-basis: 50%;
+}
+.contact-left-col img{
+    height: 500px;
+    width: 40%;
+}
+
+.contact-right-col form
+{
+
+    text-align: center;
+}
+.contact-right-col h2{
+    margin-top: 30px;
+    
+}
+
+.input{
+    margin-top: 20px;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 2px;
+    
+    
+}
+
+#footer
+{
+    background-color: rgb(4, 178, 226);
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
